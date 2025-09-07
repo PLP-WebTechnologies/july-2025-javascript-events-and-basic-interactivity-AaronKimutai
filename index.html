@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport"  content="width=device-width, initial-scale=1.0" />
+    <title>Week 6 assignment</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<!-- Main heading of the page -->
+<body>
+    <h1>Interactive Web Pages with Javascript</h1>
+
+<!-- Section: Theme toggle button --> 
+    <section>
+        <h2>Toggle Theme</h2>
+        <button id="ToggleTheme">Click Me</button>
+    </section>
+
+<!-- Section: Click counter -->
+    <section>
+        <h2>Click Counter</h2>
+        <p>You clicked <span id="counterValue">0</span> times.</p>
+        <button id="increaseBtn">Increase</button>
+        <button id="resetBtn">Reset</button>
+    </section>
+    
+<!-- Section: FAQ toggle -->    
+    <section>
+        <h2>FAQs</h2>
+        <div class="faq">
+            <button class="faq-question">What is this project about?</button>
+            <p class="faq-answer">Its about creating interactive Web Pages</p>
+        </div>
+        <div class="faq">
+            <button class="faq-question">What skills are tested?</button>
+            <p class="faq-answer">DOM Handling and Form Validation</p>
+        </div>
+    </section>
+
+ <!-- Section: Signup form -->
+    <section>
+        <h2>A Signup Form</h2>
+        <form id="signupForm">
+            <label for="name">Enter your userName:</label>
+            <input type="text" id="name"/><br><br>
+            <label for="email">Enter your email:</label>
+            <input type="email" id="email"/><br><br>
+            <label for="password">Enter your password:</label>
+            <input type="password" id="password"/><br><br>
+            <button type="Submit">submit</button>
+             <p id="formMessage"></p>
+        </form> 
+    </section>
+
+    <script src="script.js"></script>
+</body>

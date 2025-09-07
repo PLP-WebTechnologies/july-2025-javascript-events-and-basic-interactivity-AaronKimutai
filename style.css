@@ -1,0 +1,64 @@
+/* Global styles */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+    background-color: white;
+    color: black;
+
+}
+/* Heading styling */
+h1 {
+    color: #444;
+}
+
+/* Section styling */
+section{
+    margin-bottom: 30px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background: #f9f9f9;
+}
+
+/* Button styling */
+button{
+    padding: 8px 15px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background: #007bff;
+    color: white;
+}
+
+button:hover{
+    background: #0056b3;
+}
+
+/* Dark mode styles */
+body.dark-mode{
+    background-color: #222;
+    color: white;
+}
+
+body.dark-mode section{
+    background: #333;
+    border: 1px solid #666;
+}
+
+/* FAQ answer toggle */
+.faq-answer{
+    display: none;
+    margin: 8px;
+    color: #555;
+}
+
+.faq-answer.show{
+    display: block;
+}
+
+/* Form validation message */
+#formMessage{
+    margin-top: 10px;
+    font-weight: bold;
+}
